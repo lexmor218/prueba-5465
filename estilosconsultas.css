@@ -1,0 +1,107 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f1f1a9;
+}
+
+/* Encabezado */
+header {
+  font-size: 15px;
+  font-weight: 30px;
+  background-color: #bec3cd;
+  color: hsl(120, 3%, 31%);
+  padding: 20px;
+  text-align: center;
+}
+/* Barra de navegación */
+nav {
+background-color: #2a2929;
+padding: 20px;
+text-align: right;
+}
+
+/* Contenedor del div*/
+/*selector tipo class*/
+.container {
+ 
+  width: 1000px;
+  height: 300px;
+  margin: 10px auto;
+  align-content: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(136, 21, 21, 0.76);
+}
+img{
+
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+
+/* Títulos */
+/*selector tipo class*/
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulario*/
+form {
+    width: 410px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/*Elementos del Formulario*/
+input[type="text"],
+input[type="email"],
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0f110fe7;
+    color: white;
+    cursor: pointer;
+}
+
+/* Propiedad cuando pasa el cursor sobre el botón cambia de color */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.section{
+  text-align: center;
+  padding: 10px;
+
+
+}
+
+/* Pie de página */
+
+footer {
+  height:56px;
+  background-color: #333;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+}

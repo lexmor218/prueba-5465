@@ -1,0 +1,106 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #aba4a4a9;
+}
+
+/* Encabezado */
+header {
+  font-size: 15px;
+  font-weight: 30px;
+  background-color: #bec3cd;
+  color: hsl(120, 68%, 4%);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #2a2929;
+padding: 10px;
+text-align: right;
+}
+
+/* Contenedor del div*/
+/*selector tipo class*/
+.container {
+  max-width: 350px;
+  height:350px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(136, 21, 21, 0.76);
+  align-content: center;
+}
+
+/* Contenedor del formulario */
+/*selector tipo class*/
+.login-container {
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Títulos */
+/*selector tipo class*/
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Campos de entrada */
+/*selector tipo class*/
+.form-input {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+/* Botón de inicio de sesión */
+/*selector tipo class*/
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+background-color: #555;
+}
+
+/* Enlaces adicionales */
+.additional-links {
+margin-top: 10px;
+text-align: center;
+}
+
+.additional-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.additional-links a:hover {
+  text-decoration: underline;
+  }
+
+  /* Pie de página */
+footer {
+  height:56px;
+  background-color: #333;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+}
