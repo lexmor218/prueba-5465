@@ -1,0 +1,96 @@
+
+    /* Estilos globales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #aba4a4a9;
+    }
+
+    /* Encabezado */
+    header {
+      font-size: 15px;
+      font-weight: 30px;
+      background-color: #bec3cd;
+      color: hsl(120, 68%, 4%);
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Barra de navegación */
+    nav {
+      background-color: #2a2929;
+      padding: 20px;
+    }
+
+    nav ul {
+      font-size: 20px;
+            list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: rgb(185, 198, 198);
+      text-decoration: none;
+    }
+
+    /* Contenido */
+    /* Selector tipo class */
+    .container {
+      max-width: 500px;
+      height:350px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(4, 79, 6, 0.76);
+    }
+
+    /* Pie de página */
+    footer {
+      height:100px;
+      background-color: #333;
+      font-size: 10px;
+      color: #c1bdbd;
+      text-align: center;
+      align-content: center;
+    }
+   .img1 {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    float: left;
+    
+   }
+   .img2 {
+
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+  float: right;
+}
+
+.img3{
+
+  width: 80px;
+  height: 80px;
+  padding: 1px;
+  padding-right: 400px;
+  float: right;
+pa
+}
+.img4{
+
+  width: 80px;
+  height: 80px;
+  padding: 1px;
+  padding-left: 400px;
+  float: left;
+}
